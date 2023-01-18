@@ -22,7 +22,7 @@
 
 .nav {
     height: 80px;
-    background-color: aqua;
+    background-color: rgb(89, 121, 121);
     grid-column-start: 1;
     grid-column-end: 9;
 }
