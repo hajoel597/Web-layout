@@ -27,6 +27,14 @@
     grid-column-end: 9;
 }
 
+.nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: black;
+}
+
 .header {
     background-color: brown;
     grid-column-start: 1;
