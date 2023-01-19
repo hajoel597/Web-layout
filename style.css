@@ -29,7 +29,7 @@
 
 .logo {
     width: auto;
-    height: 75px;
+    height: 70px;
 }
 
 .nav a {
@@ -117,9 +117,12 @@
     /* Mobile nav bar */
     @media screen and (max-width: 600px) {
         .nav a:not(:first-child) {display: none;}
-        .logo{
+        .nav{
             float: left;
             display: block;
+        }
+        .nav a {
+            padding: 6px 8px;
         }
     }
 
