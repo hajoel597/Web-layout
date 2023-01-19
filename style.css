@@ -114,6 +114,15 @@
     }
     }
 
+    /* Mobile nav bar */
+    @media screen and (max-width: 600px) {
+        .nav a:not(:first-child) {display: none;}
+        .logo{
+            float: left;
+            display: block;
+        }
+    }
+
     /* Font Styles */
 @import url(https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap);
  body{
