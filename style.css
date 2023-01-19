@@ -27,6 +27,11 @@
     grid-column-end: 9;
 }
 
+.logo {
+    width: auto;
+    height: 75px;
+}
+
 .nav a {
     float: left;
     display: block;
