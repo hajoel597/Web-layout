@@ -28,9 +28,10 @@
     display: inline-block;
 }
 
-.logo {
+.nav a {
     width: auto;
     height: 70px;
+    float: left;
 }
 .nav a:not(:first-child) {
     color: #dfc8c8;
