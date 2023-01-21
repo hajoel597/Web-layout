@@ -26,10 +26,8 @@
     background-color: rgb(89, 121, 121);
     grid-column-start: 1;
     grid-column-end: 9;
-    display: inline-block;
 }
-
-.nav a {
+.nav a:nth-child(1) {
     width: auto;
     height: 70px;
     float: left;
@@ -40,11 +38,10 @@
     height: 70px;
 }
 
-.nav a:not(:first-child) {
+.nav a {
     color: #dfc8c8;
     padding: 14px 16px;
     height: 70px;
-    float: -50%;
     text-align: center;
     text-decoration: none;
     font-size: 17px;
