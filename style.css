@@ -22,7 +22,6 @@
 
 .nav {
     height: 80px;
-    width: 100%;
     background-color: rgb(89, 121, 121);
     grid-column-start: 1;
     grid-column-end: 9;
@@ -38,7 +37,7 @@
     height: 70px;
 }
 
-.nav a {
+.nav a:not(:first-child) {
     color: #dfc8c8;
     padding: 14px 16px;
     height: 70px;
