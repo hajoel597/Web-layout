@@ -25,12 +25,12 @@
     background-color: rgb(89, 121, 121);
     grid-column-start: 1;
     grid-column-end: 9;
-    float: left;
 }
 
 .logo {
     width: auto;
     height: 70px;
+    float: left;
 }
 
 .nav a {
