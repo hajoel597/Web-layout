@@ -25,6 +25,7 @@
     background-color: rgb(89, 121, 121);
     grid-column-start: 1;
     grid-column-end: 9;
+    display: inline-block;
 }
 
 .logo {
