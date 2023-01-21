@@ -32,6 +32,12 @@
     height: 70px;
     float: left;
 }
+
+.logo {
+    width: auto;
+    height: 70px;
+}
+
 .nav a:not(:first-child) {
     color: #dfc8c8;
     padding: 14px 16px;
