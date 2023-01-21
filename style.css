@@ -22,11 +22,12 @@
 
 .nav {
     height: 80px;
-    width: auto;
+    width: 100%;
     display: inline-block;
     background-color: rgb(89, 121, 121);
     grid-column-start: 1;
     grid-column-end: 9;
+    display: block;
 }
 
 .nav a {
