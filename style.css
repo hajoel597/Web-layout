@@ -25,6 +25,7 @@
     background-color: rgb(89, 121, 121);
     grid-column-start: 1;
     grid-column-end: 9;
+    float: left;
 }
 
 .logo {
@@ -33,7 +34,6 @@
 }
 
 .nav a {
-    float: left;
     display: block;
     color: #dfc8c8;
     padding: 14px 16px;
