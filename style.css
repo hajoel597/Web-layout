@@ -60,6 +60,14 @@
     
 }
 
+.menu_icon a {
+    display: none;
+}
+
+.menu_close {
+    background: blue;
+}
+
 .header {
     background-color: brown;
     grid-column-start: 1;
@@ -133,9 +141,12 @@
     }
 
     /* Mobile nav bar */
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 770px) {
         .bar {
             display: none;
+        }
+        .menu_icon a {
+            display: block;
         }
     }
 
