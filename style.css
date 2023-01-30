@@ -28,6 +28,7 @@ img {
     background-color: rgb(89, 121, 121);
     grid-column-start: 1;
     grid-column-end: 9;
+    position: relative;
 }
 
 .logo {
@@ -37,15 +38,25 @@ img {
     padding: 5px 20px;
 }
 
+.menu {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80px;
+    text-align: center;
+    
+}
+
 .menu_link {
     display: inline-block;
+    margin-top: 14.5px;
     padding: 14px 16px;
-    margin-top: 18px;
     font-size: 17px;
     text-align: center;
     text-decoration: none;
-    color: blanchedalmond;
-    background-color: aqua;
+    color: azure;
+    background-color: rgb(96, 138, 124);
 }
 
 .icon {
@@ -127,7 +138,7 @@ img {
     }
 
     /* Mobile nav bar */
-    @media screen and (max-width: 770px) {
+    @media screen and (max-width: 905px) {
         .menu_link {
             display: none;
         }
