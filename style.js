@@ -1,9 +1,8 @@
-window.onload = function myfunction() {
-    var x =document.getElementsByClassName("menu_open")
-    if(x.style.display =='block') {
-        x.style.display =='none'
+window.onload = function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
     } else {
-        x.style.display = 'none';
-      }
-}
-
+      x.className = "topnav";
+    }
+  }
