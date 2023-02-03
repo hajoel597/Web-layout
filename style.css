@@ -24,7 +24,7 @@ img {
 .nav {
     height: fit-content;
     z-index: 1;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(242, 238, 203);
     grid-column-start: 1;
     grid-column-end: 9;
     display: flex;
